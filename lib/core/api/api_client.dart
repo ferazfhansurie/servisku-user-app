@@ -8,7 +8,7 @@ final apiClientProvider = Provider<ApiClient>((ref) => ApiClient());
 class ApiClient {
   static const String baseUrl = String.fromEnvironment(
     'API_URL',
-    defaultValue: 'http://localhost:3000/api',
+    defaultValue: 'https://servisku-server.vercel.app/api',
   );
 
   late final Dio _dio;

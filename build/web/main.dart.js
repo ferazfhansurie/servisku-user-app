@@ -104863,7 +104863,7 @@ A.aQG.prototype={
 $1(a){return A.aXV()},
 $S:689}
 A.pn.prototype={
-aeB(){var s,r=A.b8t("http://localhost:3000/api",B.Ke,A.aB(["Content-Type","application/json"],t.N,t.z),B.Kq),q=new A.TH(A.b([B.GR],t.i6))
+aeB(){var s,r=A.b8t("https://servisku-server.vercel.app/api",B.Ke,A.aB(["Content-Type","application/json"],t.N,t.z),B.Kq),q=new A.TH(A.b([B.GR],t.i6))
 q.L(q,B.Qb)
 s=new A.aev($,q,$,new A.aio(51200),!1)
 s.a34$=r
